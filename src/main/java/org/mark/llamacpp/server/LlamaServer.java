@@ -368,7 +368,7 @@ public class LlamaServer {
 	/**
 	 * 	默认监听地址：仅回环，拒绝所有非本机客户端。
 	 */
-	private static final String DEFAULT_LISTEN_ADDRESS = "127.0.0.1";
+	private static final String DEFAULT_LISTEN_ADDRESS = "0.0.0.0";
 
 	private static final int DEFAULT_MCP_SERVER_PORT = 8075;
 
